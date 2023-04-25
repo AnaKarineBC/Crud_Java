@@ -89,7 +89,7 @@ public class ManterAnimacao {
         List<Animacao> listaAnimacao = contAnimacao.listar(animacao);
         for(Animacao animacaoOut : listaAnimacao ){
             JOptionPane.showMessageDialog(null,animacaoOut.toString());
-            Cinema.main(null);
         }
+        Cinema.main(null);
     }
 }
